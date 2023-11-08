@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.card-size {
+  width: 18rem;
+}
+
+@media (max-width: 500px) {
+  .card-size {
+    width: 100%;
+  }
+}
